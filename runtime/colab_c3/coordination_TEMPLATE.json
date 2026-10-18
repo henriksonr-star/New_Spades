@@ -1,0 +1,20 @@
+{
+  "run_authorized": false,
+  "parent_review_complete": false,
+  "runtime_exclusive": false,
+  "candidate_native_export_verified": false,
+  "prepare_valid_until_utc": "2026-10-19T15:49:14Z",
+  "authorization_valid_until_utc": "SET_EXPLICIT_FUTURE_UTC_BEFORE_FREEZE",
+  "export_wait_timeout_seconds": 3600,
+  "supplemental_export_interval_seconds": 900,
+  "max_segments": 1,
+  "source_pins": {
+    "original_sha256": "56da4fa7bc6e501249cecbd4e41768b27f3930b09fc8938c0fb8f1201a19c28e",
+    "production_sha256": "f818c9008adf383835db51d34470f6c933ebec9e3853d0a9c74642b2bcf822b8",
+    "candidate_package_sha256": "2b38d9596fc75cf90eda5bad18dfb3c0b54881dc5346c0eab38f2b86559bed13"
+  },
+  "candidate_external_receipt": {
+    "library_receipt": "LOCAL_VERIFIED_UPDATE674",
+    "archive_sha256": "2b38d9596fc75cf90eda5bad18dfb3c0b54881dc5346c0eab38f2b86559bed13"
+  }
+}

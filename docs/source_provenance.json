@@ -1,0 +1,134 @@
+{
+  "schema": "spades-sanitized-source-distribution-v1",
+  "scope": "Repository mirror, not byte-identical operational release. No checkpoint binaries or private external identities included.",
+  "baseline_package_sha256": "2b38d9596fc75cf90eda5bad18dfb3c0b54881dc5346c0eab38f2b86559bed13",
+  "baseline_receipt_label": "LOCAL_VERIFIED_UPDATE674",
+  "files": [
+    {
+      "distribution_path": "notebooks/source_recovered.ipynb",
+      "original_sha256": "3236d2c95d4d1a95bf31a5cb7299853be6871783691829ee775fbb38366d1389",
+      "distribution_sha256": "56da4fa7bc6e501249cecbd4e41768b27f3930b09fc8938c0fb8f1201a19c28e",
+      "transformation": "Notebook/cell metadata and outputs removed; every cell source preserved exactly.",
+      "cells": 38,
+      "code_cells": 19
+    },
+    {
+      "distribution_path": "notebooks/runtime_safety_v2.ipynb",
+      "original_sha256": "2b8b5951ee7f7c91f43aefaff88d3d3ec25275221e94e53e9b2c716761bfe1b1",
+      "distribution_sha256": "f818c9008adf383835db51d34470f6c933ebec9e3853d0a9c74642b2bcf822b8",
+      "transformation": "Notebook/cell metadata and outputs removed; every cell source preserved exactly.",
+      "cells": 38,
+      "code_cells": 19
+    },
+    {
+      "distribution_path": "notebooks/runtime_kaggle_v1.ipynb",
+      "original_sha256": "0c21d4a69c831fd857dc263cf7cff331babca06450d0bc8507a937278d31d823",
+      "distribution_sha256": "16ee24065655d9d13d13896befe50772c65aa7dbcfda85e336868f42cb7ea494",
+      "transformation": "Notebook/cell metadata and outputs removed; every cell source preserved exactly.",
+      "cells": 38,
+      "code_cells": 19
+    },
+    {
+      "distribution_path": "runtime/colab_c3/operator.py",
+      "original_sha256": "a552fa0fa7c8506023b43bef0ac4aa3db89c705d7be0559b875ea437ed8c95ff",
+      "distribution_sha256": "d60963f2d26829f6c089fb4c0f36e39a119f739cc5c083f688ecd19f2a001234",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/colab_c3/coordination_TEMPLATE.json",
+      "original_sha256": "5fde0813b09911a40f747006aaff08510821cc615bf7ce530f66b710d9d399e9",
+      "distribution_sha256": "be30e26341bd67f8ac3e06bbf07179c9ed1098a69eb9d266e3ca52d02496e194",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/colab_c3/operator_notebook_builder.py",
+      "original_sha256": "54be912399ba33ab5b898fcf94012822e3aca3d9a7144298d1e9293df36e4e68",
+      "distribution_sha256": "da721fd90d05d2f2a52262e0ab415402b60d51d28cc9a0c751d4d6121f17f42f",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes. Exact sanitized notebook byte-count limits rebound."
+    },
+    {
+      "distribution_path": "runtime/colab_c3/audit_export_package.py",
+      "original_sha256": "e36758519ab7fb88e23fa49ae97d9a02717df71bbd721b3acfd449a460fa2279",
+      "distribution_sha256": "0912dfd95a96f4f9cecd3c056149f6eef22ba58eccd42bf3e39171933f4c8e28",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/colab_c3/test_auditor.py",
+      "original_sha256": "932611e95c5b9d4b3f45620ece8a78b14e9b119edc03f4cbb889dc26eb973b14",
+      "distribution_sha256": "d10e1e514976d77d20201b2fbba218a06cda1f2237dbba3024e4b09c6f0c87d9",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/colab_c3/test_notebook.py",
+      "original_sha256": "e9258b595e08de8ce986d1c7a38697b75cf87cbd3edd845f81830acddf8b4fc4",
+      "distribution_sha256": "e9258b595e08de8ce986d1c7a38697b75cf87cbd3edd845f81830acddf8b4fc4",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/operator.py",
+      "original_sha256": "8897be3740c417bd9c54ee26f122a4a164e9d67c874f193ac12f9a721d4d7df2",
+      "distribution_sha256": "5c0556b3defb65f2e12a72d89b460c12a27fa4496616291a7ee7beb2ca1ffd5a",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/coordination_TEMPLATE.json",
+      "original_sha256": "9e465493029bfde41e0a1f2b3ae394b44f2c273c97dd9a849b03632deffb237c",
+      "distribution_sha256": "50b1b220b2bd6d4e265373715821329296cee0caf01d825deebc55a0ac4aea0e",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/operator_notebook_builder.py",
+      "original_sha256": "e5e353362106c2c9d4a223183a5a97c55ef4ff7bca2da64fa1d54110a213af1e",
+      "distribution_sha256": "1af658f46a9e597bf98613720015c54167f9b082943f475f02d79fe220dead82",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes. Exact sanitized notebook byte-count limits rebound."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/audit_export_package.py",
+      "original_sha256": "8ee801d720d3abb6087aa8f3989718c861894f04c4614c338e468e7322422220",
+      "distribution_sha256": "f9694244b24a66432d45070108bb585ac05bc4e6d5e1c5ecf8e6266c66b0db0a",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/test_auditor.py",
+      "original_sha256": "c8e88f0f1b07ea7d9251a22f0e47ecd2ec13924b427178b27afee713b897b818",
+      "distribution_sha256": "d10e1e514976d77d20201b2fbba218a06cda1f2237dbba3024e4b09c6f0c87d9",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/test_notebook.py",
+      "original_sha256": "eba6cf250d150b808385fdf5834f45b8f2a0ffe13055b6e9c2624e71a8e84485",
+      "distribution_sha256": "eba6cf250d150b808385fdf5834f45b8f2a0ffe13055b6e9c2624e71a8e84485",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/colab_c3/test_operator.py",
+      "original_sha256": "d108eb7f23c14e62f7414dcc747e033961e3f3c23800c456b98a89177fcb990d",
+      "distribution_sha256": "be89f42307136ed1e0e4b273c60981d5e14b9ea20d8d659bef57372b779af612",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/test_operator.py",
+      "original_sha256": "9fbecc7b4715ed405a2167c405412e96018500e62546f80db693848f83057377",
+      "distribution_sha256": "0becdff5d49b0d686153838b7b74b191f5650f0779a2d091a8ab0fdd1130f387",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/test_platform_owner.py",
+      "original_sha256": "da90b28bef3335125c35829987780f403ba2b9f720f03ff5570ee1e2b5da0829",
+      "distribution_sha256": "cbf30d4720f9b357c93bc98c653bce9a36fc382554d317819522c25c1e95624b",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/production_cell12.py",
+      "original_sha256": "7288acc72541d7900326a4a6aabf7f58ba5fd214aa8d29113d1d81627b26e296",
+      "distribution_sha256": "7288acc72541d7900326a4a6aabf7f58ba5fd214aa8d29113d1d81627b26e296",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    },
+    {
+      "distribution_path": "runtime/kaggle_v1/test_platform.py",
+      "original_sha256": "53fcfb5c04d85e86d7011b666d6684331fca59e4e2b01ae3a924f23cf491293a",
+      "distribution_sha256": "56bf4a6393ee45c555f2a87a4b6164f4c2477935c1219d15506b676a11ac22a9",
+      "transformation": "Private receipt labels replaced; sanitized notebook hash pins and repository-relative source/test paths rebound. No training logic changes."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS_HOST_ONLY",
+  "suites": [
+    {
+      "suite": "tests",
+      "tests": 11,
+      "passed": true
+    },
+    {
+      "suite": "runtime/colab_c3",
+      "tests": 47,
+      "passed": true
+    },
+    {
+      "suite": "runtime/kaggle_v1",
+      "tests": 104,
+      "passed": true
+    }
+  ],
+  "tests": 162,
+  "gpu_executed": false,
+  "checkpoint_loaded": false,
+  "external_upload_verified": false,
+  "playing_strength_evaluated": false
+}

@@ -1,0 +1,18 @@
+{
+  "original_source.ipynb": {
+    "bytes": 400603,
+    "sha256": "3236d2c95d4d1a95bf31a5cb7299853be6871783691829ee775fbb38366d1389"
+  },
+  "production_source.ipynb": {
+    "bytes": 455520,
+    "sha256": "ddb7eae810d3ac37e005dddbcdf90399797610ac802cce9cdbcda99a784e91c8"
+  },
+  "diversity_evaluation.py": {
+    "bytes": 53553,
+    "sha256": "1751557e800d48a596b7a783595aa1bd42ecf6c20b130c97a9a498e583e16ecc"
+  },
+  "spades_legacy_aot.py": {
+    "bytes": 121760,
+    "sha256": "66f00e9a245d85d236eea4cda545bce1fef4578d44f7d591d36c7a803e782db1"
+  }
+}

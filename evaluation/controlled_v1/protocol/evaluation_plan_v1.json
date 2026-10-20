@@ -1,0 +1,499 @@
+{
+  "schema": "spades-controlled-paired-winrate-plan-v1",
+  "protocol_id": "control1329-vs-current8351-fresh-deal-assessment-v1",
+  "created_utc": "2026-10-20T21:45:09.460809Z",
+  "status": "predeclared_not_executed",
+  "purpose": "Read-only assessment of two frozen checkpoints against common scripted opposition; no training, provider action, campaign journal mutation, checkpoint promotion or continuation authorization.",
+  "checkpoints": {
+    "baseline": {
+      "label": "original_CONTROL1329",
+      "updates": 1329,
+      "bytes": 43309324,
+      "sha256": "e125a9a946bbd50185829cde5c4e577d4198d39b3ecede06da9aa44a77e496f6"
+    },
+    "candidate": {
+      "label": "current8351",
+      "updates": 8351,
+      "bytes": 63547896,
+      "sha256": "15c6ca425eee1298ddd50f01215b6be7011cab1031f0a62ff6cdbc5bd4ae0cde"
+    }
+  },
+  "native_binding": {
+    "read_only": true,
+    "separate_arm_configs_and_revisions": true,
+    "native_bytes_hash_required": true,
+    "policy_parameter_leaves": 44,
+    "native_total_leaves": 214,
+    "width": 256,
+    "same_architecture_required": true,
+    "preserve_full_native_configs": true,
+    "optimizer_rng_counters_unchanged": true,
+    "legacy_baseline674_binder_forbidden": true
+  },
+  "source_root_at_freeze": "/workspace/spades/work/normal_lr_schedule_amendment_v3/sources",
+  "source_pins": {
+    "diversity_evaluation.py": {
+      "bytes": 53553,
+      "sha256": "1751557e800d48a596b7a783595aa1bd42ecf6c20b130c97a9a498e583e16ecc"
+    },
+    "source_v2_helpers/diversity_evaluation.py": {
+      "bytes": 53553,
+      "sha256": "1751557e800d48a596b7a783595aa1bd42ecf6c20b130c97a9a498e583e16ecc"
+    },
+    "source_v2_helpers/lr_ab_evaluation.py": {
+      "bytes": 43194,
+      "sha256": "0b1f5a964ffba5e67cfd45e0eed946a88033ff9e79094f02a36bcf2ab39851aa"
+    },
+    "opponent_manifest.json": {
+      "bytes": 5424,
+      "sha256": "20e4727fdf4d37d035c9ec1bc5d770eb3510f93c9bd20c680c512ceee5f78f1d"
+    },
+    "heldout_protocol.json": {
+      "bytes": 19274,
+      "sha256": "0b5970eb566bfcf3db55ffc5559a80e27c072babffe5e1c64f92d3aa5ed2942d"
+    },
+    "training_opponents_v2.py": {
+      "bytes": 16304,
+      "sha256": "71de314f6258d236ba2b2c9cf9f527182d11b3670038fd91c74df147656b143f"
+    },
+    "training_opponent_manifest_v2.json": {
+      "bytes": 7675,
+      "sha256": "2497c7fd54ee54ed26a3131ece87addbf4c2032170c7b1a7434528e6ea2781d4"
+    },
+    "formula_opponents_v3.py": {
+      "bytes": 17753,
+      "sha256": "4a90b163832781f80420fee8c7b74e21185350638b0c5c059a28f2dd258f0df6"
+    },
+    "formula_manifest_v3.json": {
+      "bytes": 9985,
+      "sha256": "569af9f881ffcfd9cddfd28f148275a95e207da7f786bc95f6c2a81d4ff05553"
+    },
+    "legacy_normal_lr_longrun_contract_v3.py": {
+      "bytes": 70185,
+      "sha256": "0383c488fbd5cf023a254e913f80fef0d31bedc906883ce24d06efa6b14fa8d7"
+    },
+    "spades_normal_longrun.py": {
+      "bytes": 67375,
+      "sha256": "3cf094efbf139ba8442f64d28f859058acf6103fb3b552050b4d1686d8d118ae"
+    },
+    "sampling_policy.py": {
+      "bytes": 13771,
+      "sha256": "824c41ee9318509901af82a1ca99d4814c88e2ac8112efcbc03cf9e13cc709a0"
+    },
+    "original_source.ipynb": {
+      "bytes": 400603,
+      "sha256": "3236d2c95d4d1a95bf31a5cb7299853be6871783691829ee775fbb38366d1389"
+    },
+    "production_source.ipynb": {
+      "bytes": 455520,
+      "sha256": "ddb7eae810d3ac37e005dddbcdf90399797610ac802cce9cdbcda99a784e91c8"
+    }
+  },
+  "embedded_sources": {
+    "frozen_opponent_sha256": "75649c722d2843641322084e157a6c6816bd8a28a32ced416522b9a732d9da55",
+    "kernel_factory_sha256": "1d70cdc8b3f3606f22830fa37512f628b9a9733b445ca6648ca282c89169b13d"
+  },
+  "stages": [
+    {
+      "stage": "development",
+      "plan": {
+        "mode": "development",
+        "seed_name": "development",
+        "seed": 2026101921,
+        "bootstrap_seed": 2026101922,
+        "style_ids": [
+          5,
+          6,
+          7,
+          11,
+          13,
+          21,
+          29,
+          37,
+          77,
+          85,
+          93,
+          101,
+          141,
+          149,
+          157,
+          165
+        ],
+        "pairs_per_style": 16,
+        "games_per_style": 32,
+        "max_hands": 160
+      },
+      "root_clusters": 256,
+      "games_per_arm": 512,
+      "total_games": 1024,
+      "interpretation": "Previously used development deals and trained opponent IDs; descriptive benchmark only. Checkpoint choices are already frozen."
+    },
+    {
+      "stage": "holdout_primary",
+      "plan": {
+        "mode": "holdout",
+        "seed_name": "primary",
+        "seed": 2501113534,
+        "bootstrap_seed": 383779552,
+        "style_ids": [
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332
+        ],
+        "pairs_per_style": 16,
+        "games_per_style": 32,
+        "max_hands": 160
+      },
+      "root_clusters": 1024,
+      "games_per_arm": 2048,
+      "total_games": 4096,
+      "interpretation": "Freshly generated deal label with training-excluded scripted styles; current checkpoint assessment conditional on this fixed roster."
+    }
+  ],
+  "planned_total_games": 5120,
+  "planned_total_root_clusters": 1280,
+  "seed_adapter": {
+    "allowed_plan_changes_from_frozen_holdout_primary": [
+      "seed",
+      "bootstrap_seed"
+    ],
+    "original_primary_seed": 2026101901,
+    "original_primary_bootstrap_seed": 2026101902,
+    "seed_name_semantics": "primary is this protocol stage, not execution of the historical fixed-primary-seed plan",
+    "generation": {
+      "method": "Python secrets.randbits(32), four distinct labels rejecting known historical labels, generated once before any outcomes",
+      "generated_utc": "2026-10-20T21:45:09.460809Z",
+      "current_assessment_deal_seed": 2501113534,
+      "current_assessment_bootstrap_seed": 383779552,
+      "reserved_future_confirmation_deal_seed": 748298380,
+      "reserved_future_confirmation_bootstrap_seed": 1923345019,
+      "known_labels_rejected": [
+        42,
+        132701,
+        2026101831,
+        2026101837,
+        2026101901,
+        2026101902,
+        2026101907,
+        2026101908,
+        2026101911,
+        2026101912,
+        2026101917,
+        2026101918,
+        2026101921,
+        2026101922
+      ]
+    },
+    "future_confirmation": {
+      "execute_in_this_session": false,
+      "deal_seed": 748298380,
+      "bootstrap_seed": 1923345019,
+      "requires_new_predeclared_final_checkpoint_binding": true,
+      "warning": "If current outcomes inform further training or selection, these styles are development-exposed for future claims. Fresh deals alone do not restore unseen-family status."
+    }
+  },
+  "seed_history": {
+    "development_seed_status": "used_in_actual_preceding_CONTROL1329_DEV_evaluation_by_retained_audited_witness",
+    "historical_heldout_primary_and_confirmation": "no_prior_execution_found_in_available_local_evidence; unavailable provider/Library history prevents a universal never-used claim",
+    "audit_scope": "Read-only /workspace/spades text, report filenames, local ZIP member lists and retained source-intake audit witnesses; no connected provider/Library execution history queried",
+    "prior_development_archive": {
+      "bytes": 102385846,
+      "sha256": "ac5b075ef9029d0fa7a217018c519a278cca5a25997d763e01182468ecd1b02a"
+    },
+    "fresh_label_scope": "Generated now independently of observed outcomes; exact derived root keys must be recorded and checked disjoint across stages and against locally available prior roots. Seed labels alone do not prove global PRNG-stream non-overlap."
+  },
+  "opponents": {
+    "training_total_scripted_styles": 237,
+    "legacy_count_included_in_training_total": 13,
+    "nonlegacy_training_styles": 224,
+    "formula_training_styles_included": 32,
+    "training_family_ids": [
+      0,
+      1,
+      2,
+      5,
+      6,
+      7,
+      8
+    ],
+    "heldout_family_ids": [
+      3,
+      4
+    ],
+    "heldout_variant_ids": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "heldout_style_ids": [
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      301,
+      302,
+      303,
+      304,
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332
+    ],
+    "heldout_style_count": 64,
+    "heldout_names": {
+      "3": "crossruff_pressure",
+      "4": "score_threshold_defense"
+    },
+    "holdout_ids_excluded_from_training_sampler_and_native_allowlist": true,
+    "source_exclusion_proof_is_not_full_historical_execution_trace": true
+  },
+  "pairing": {
+    "root_derivation": "jax.random.split(jax.random.fold_in(jax.random.PRNGKey(plan.seed), style_id), 16)",
+    "same_roots_between_arms": true,
+    "same_style_between_arms": true,
+    "learner_teams": [
+      0,
+      1
+    ],
+    "root_games_per_arm": 2,
+    "policy_controls_both_learner_team_seats": true,
+    "opposing_seats_use_same_frozen_scripted_style": true,
+    "per_hand_deal_key": "fold_in(root, h + 1), independent of actions and winners",
+    "root_key_collision_check_across_stages": true,
+    "no_root_replacement_or_outcome_filtering": true,
+    "deterministic_policy_argmax": true,
+    "direct_head_to_head_between_checkpoints": false
+  },
+  "game_rules": {
+    "ruleset": "modified-spades-500-blind-swap-team-failure-v1",
+    "unchanged_engine_and_scoring": true,
+    "completion": "Only actual engine match_done and valid engine winner; max_hands=160 is a safety cap, not a scoring condition",
+    "max_hands": 160,
+    "win_credit": {
+      "win": 1.0,
+      "true_engine_draw": 0.5,
+      "loss": 0.0,
+      "unfinished": null
+    }
+  },
+  "statistics": {
+    "primary_metric": "Equal-style mean paired win-credit difference, candidate minus baseline",
+    "report_units": "win-credit rate and percentage-point difference; W/D/L counts also reported",
+    "strata": "64 fixed heldout style IDs, equally weighted; equal32 variants makes this equal-family weighted",
+    "root_cluster": "One unique style/root, retaining both learner-team roles and both checkpoint outcomes",
+    "per_root_delta": "mean_role(candidate outcome - baseline outcome)",
+    "bootstrap": "Frozen analyze_paired_raw: resample16 root-cluster indices within each style independently, using shared indices for both policies and both roles; average equally over styles",
+    "bootstrap_replicates": 10000,
+    "confidence_level": 0.95,
+    "interval": "two-sided percentile nominal95% stratified paired-root-cluster bootstrap",
+    "bootstrap_prng": "numpy.random.default_rng(plan.bootstrap_seed); record installed NumPy version",
+    "aggregate_interpretation": "If lower>0: nominal evidence of improved win credit on this fixed assessment; if upper<0: nominal evidence of regression; otherwise statistically inconclusive. No automatic promotion.",
+    "all_subgroups_exploratory": true,
+    "multiplicity_adjusted": false,
+    "family_or_style_selection_after_outcomes": false,
+    "pool_development_and_holdout": false,
+    "independent_training_seed_uncertainty_included": false,
+    "unseen_opponent_family_uncertainty_included": false,
+    "conditional_on_fixed_checkpoints_roster_and_evaluator": true,
+    "causal_attribution_to_lr_or_formula_opponents": false,
+    "minimum_detectable_effect_claim": false,
+    "sample_size_basis": "Bounded fixed sample:1024root clusters/primary stage; no precision/power promise before paired-discordance data."
+  },
+  "budget": {
+    "session_wall_seconds": 5400,
+    "export_reserve_seconds": 600,
+    "workload_deadline_seconds": 4800,
+    "clock_origin": "Start of notebook setup, before dependency install, downloads, JAX import or compilation",
+    "include_setup_download_compile_development_holdout": true,
+    "no_new_work_after_deadline": true,
+    "record_inflight_overrun_without_clipping": true,
+    "completion_not_promised": true,
+    "available_legitimate_free_quota_required_seconds": 5400,
+    "paid_compute": false,
+    "automatic_extension": false,
+    "training_journal_mutation": false
+  },
+  "stopping_and_reporting": {
+    "fixed_candidate_before_any_results": true,
+    "fixed_sample_before_any_results": true,
+    "no_outcome_based_early_stopping_or_resizing": true,
+    "no_midstage_wins_ci_or_delta_peeking": true,
+    "allowed_progress_fields": [
+      "elapsed_seconds",
+      "stage",
+      "style_id",
+      "arm",
+      "completed_work_count",
+      "health",
+      "artifact_paths"
+    ],
+    "invalid_if_any_missing_unfinished_illegal_nonfinite_or_unpaired": true,
+    "partial_result_status": "incomplete_or_invalid_no_primary_inference",
+    "do_not_drop_or_impute_unfinished_pairs": true,
+    "preserve_raw_before_validation": true,
+    "retain_all_attempts_even_failed": true,
+    "no_automatic_retry": true,
+    "rerun_requires_new_attempt_record_and_prior_exposure_disclosure": true,
+    "full_evidence_required": [
+      "protocol_hash",
+      "source_hashes",
+      "checkpoint_hashes",
+      "parameter_digests",
+      "actual_native_configs",
+      "exact_roots",
+      "learner_teams",
+      "raw_engine_outputs",
+      "WDL_outcomes",
+      "completion_flags",
+      "hands",
+      "illegal_counts",
+      "timings",
+      "library_versions",
+      "device_identity",
+      "nominal_intervals",
+      "attempt_status"
+    ]
+  }
+}

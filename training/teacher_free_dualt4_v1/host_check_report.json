@@ -1,0 +1,47 @@
+{
+  "actual_gpu_test": false,
+  "actual_training_run": false,
+  "checked_utc": "2026-10-26T17:34:25.717549+00:00",
+  "checkpoint_restore_performed": false,
+  "checks": [
+    "Public allowlist SHA256 and AST identities",
+    "Complete frozen290-member source closure identities",
+    "Exact extracted cells, selected guard definitions and generated trainer parity",
+    "Canonical latest configuration and fail-closed schema validation",
+    "Opponent manifests, disjoint845 training and256 heldout rosters, and NumPy host ID predicates",
+    "Synthetic passive diagnostic flow/exposure accounting",
+    "Synthetic compiler memory/HLO parsing and absent-execution-evidence rejection",
+    "Synthetic checkpoint readback scope cleanup, nesting rejection, configuration binding and retained transfer admission"
+  ],
+  "format": "spades-public-source-host-check-report-v1",
+  "formatting_normalization": {
+    "change": "Removed one extraction-wrapper blank line at EOF; exactly one final newline retained.",
+    "original_complete_files_unchanged": 17,
+    "path": "derived/checkpoint_guard_excerpt.py",
+    "selected_function_asts_unchanged": true,
+    "selected_function_text_unchanged": true
+  },
+  "host_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "errors": 0,
+    "failures": 0,
+    "passed": 15,
+    "test_count": 15
+  },
+  "jax_gameplay_test": false,
+  "limitations": [
+    "NumPy host ID predicates do not exercise JAX policy play or rollout sampling.",
+    "Synthetic compiler evidence and guard fixtures do not attest physical devices or production readback.",
+    "Bound operator and private operational inputs remain omitted; source distribution is intentionally incomplete."
+  ],
+  "source_parity": {
+    "checkpoint_loaded": false,
+    "extraction_and_generation_parity": true,
+    "gpu_test_performed": false,
+    "original_closure_members_verified": 290,
+    "selected_public_entries_verified": 23,
+    "status": "passed",
+    "training_started": false
+  },
+  "status": "passed"
+}

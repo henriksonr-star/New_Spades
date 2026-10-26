@@ -1,0 +1,59 @@
+{
+  "active_shortfall_seconds": 236.250977159,
+  "active_time_measurement": "Joint collect/optimize elapsed time through both-device synchronization; not multiplied by GPU count.",
+  "audited_evaluation_results_for_this_checkpoint_included": false,
+  "checkpoint": {
+    "availability": "Verified owner-held recovery backup; public binary download is not published.",
+    "included_in_git": false,
+    "native_bytes": 114647443,
+    "native_sha256": "aa64a6277ec5b31e6563749215682be82aaa42f7b0e2cf7ca60269575fdc8569",
+    "public_download_url": null,
+    "recovery_bundle_bytes": 123225562,
+    "recovery_bundle_sha256": "837fb03f5e4bb13dbd4d745def5b2811d55223fef0371156cb1d67beb4f9340e"
+  },
+  "environment_steps": 8062107648,
+  "final_update": 17574,
+  "hardware": {
+    "device_count": 2,
+    "environments_per_device": 1792,
+    "evidence_scope": "Recorded runtime dual-device admission and content validation; offline audit is not independent physical hardware attestation.",
+    "global_environments": 3584,
+    "model": "Tesla T4"
+  },
+  "learning": {
+    "learning_rate": 0.0002,
+    "mix_fraction_scope": "Configured opponent match-assignment probabilities; not measured fractions of games, decisions or runtime.",
+    "policy_reset": false,
+    "rules_scoring_and_sequential_blind_visibility_unchanged_from_source": true,
+    "scripted_fraction": 0.25,
+    "scripted_opponent_styles_available": 845,
+    "scripted_style_count_is_not_independent_strategy_count": true,
+    "self_play_fraction": 0.5,
+    "snapshot_fraction": 0.25,
+    "teacher_action_supervision": false
+  },
+  "measured_active_seconds": 10563.749022841,
+  "new_updates": 2327,
+  "playing_strength_claim": false,
+  "provider_elapsed_seconds": 20396.9,
+  "provider_status": "Successful",
+  "publication_scope": "Sanitized facts and source/configuration snapshot only; private operational evidence and model weights excluded.",
+  "requested_active_seconds": 10800,
+  "requested_target_reached": false,
+  "schema": "spades-verified-training-result-v1",
+  "source_update": 15247,
+  "status": "completed_with_verified_checkpoint",
+  "stop_reason": "Remaining active allowance was below the unchanged conservative 240-second next collect/optimize reservation.",
+  "verification": {
+    "accepted_optimizer_minibatches": 55801,
+    "content_audit": "PASS_CONTENT_ONLY",
+    "final_accepted_state_readback_reported": true,
+    "finite_native_leaves": 214,
+    "healthy_settlement_candidate": true,
+    "offline_live_ram_equality_proven": false,
+    "optimizer_health_stop": false,
+    "preservation_error": null,
+    "source_history_prefix_preserved": true,
+    "terminal_error": null
+  }
+}

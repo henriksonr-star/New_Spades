@@ -1,0 +1,15 @@
+{
+  "changed_fields": [
+    "source_root_at_freeze",
+    "seed_history.audit_scope"
+  ],
+  "changes": "Replace historical absolute machine-path descriptions with a relative source-tree label and path-free audit-scope description. The relative label is historical, not a claim that the whole private source tree is distributed.",
+  "file": "evaluation/controlled_v1/protocol/evaluation_plan_v1.json",
+  "original_history_rewritten": false,
+  "original_public_sha256": "da9a8c987c94e299d54b2778599097cc286027b08cd596f1f6a287fb1e32c1b7",
+  "public_protocol_is_a_metadata_sanitized_snapshot": true,
+  "public_sha256": "3afe809eb31651bccecfc797bd7eb941f1f89ed642666c9817c9730a3a4620cd",
+  "schedule_rules_checkpoints_seeds_pairing_and_statistics_unchanged": true,
+  "schema": "spades-public-metadata-sanitization-v1",
+  "unchanged_protocol_semantic_sha256": "b0c7ea7587e10bbd434609682439a1e911bb75a17ef2e1d377f6f06a43321316"
+}

@@ -1,0 +1,556 @@
+{
+  "complete_operational_distribution": false,
+  "continuation_source_update": 15247,
+  "files": [
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 20352,
+        "sha256": "c589793df008f6517d3836b615b0686d1f649a7921be36b581840600a00a4add"
+      },
+      "public_ast_sha256": "768adfe5ae28631ce68f66d3ec8593df85e78e2d8fca665190aad5a07dc185a1",
+      "public_path": "source/frontend/prior9971/teacher_free_objective.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 20352,
+        "sha256": "c589793df008f6517d3836b615b0686d1f649a7921be36b581840600a00a4add"
+      },
+      "source_path": "frontend/prior9971/teacher_free_objective.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 40165,
+        "sha256": "6f33b1d86f8e831f9d9a2e1b8a71506c9310e66cd5bfc5d6538801f1dc01aa64"
+      },
+      "public_ast_sha256": "376f67eb23cf180ad770782a997bebb228b778bdc41ceb67719bb7ad0d0acf4a",
+      "public_path": "source/frontend/prior9971/dual_gpu_runtime.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 40165,
+        "sha256": "6f33b1d86f8e831f9d9a2e1b8a71506c9310e66cd5bfc5d6538801f1dc01aa64"
+      },
+      "source_path": "frontend/prior9971/dual_gpu_runtime.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 16304,
+        "sha256": "71de314f6258d236ba2b2c9cf9f527182d11b3670038fd91c74df147656b143f"
+      },
+      "public_ast_sha256": "52304734cb21e976f52592686c84e3ffb9e5ea2ad0214d0c6ccdaa493741ee97",
+      "public_path": "source/frontend/prior9971/training_opponents_v2.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 16304,
+        "sha256": "71de314f6258d236ba2b2c9cf9f527182d11b3670038fd91c74df147656b143f"
+      },
+      "source_path": "frontend/prior9971/training_opponents_v2.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 17753,
+        "sha256": "4a90b163832781f80420fee8c7b74e21185350638b0c5c059a28f2dd258f0df6"
+      },
+      "public_ast_sha256": "b82a67cd2f056ba7f6e50380e2a92c851e3de4a729f4f431828be6d05212e29d",
+      "public_path": "source/frontend/prior9971/formula_opponents_v3.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 17753,
+        "sha256": "4a90b163832781f80420fee8c7b74e21185350638b0c5c059a28f2dd258f0df6"
+      },
+      "source_path": "frontend/prior9971/formula_opponents_v3.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 21398,
+        "sha256": "cebde621855b775ec5050fa43b9056ef1ea99a840ca97ea3e8fa958bf23e0af7"
+      },
+      "public_ast_sha256": "75d9ccc73a4407b4960a477520bf06e65b7303bcfa97127b36d7d3ca2bbaf72d",
+      "public_path": "source/frontend/prior9971/tactical_opponents_v4.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 21398,
+        "sha256": "cebde621855b775ec5050fa43b9056ef1ea99a840ca97ea3e8fa958bf23e0af7"
+      },
+      "source_path": "frontend/prior9971/tactical_opponents_v4.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 5424,
+        "sha256": "20e4727fdf4d37d035c9ec1bc5d770eb3510f93c9bd20c680c512ceee5f78f1d"
+      },
+      "public_path": "source/frontend/prior9971/opponent_manifest.json",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 5424,
+        "sha256": "20e4727fdf4d37d035c9ec1bc5d770eb3510f93c9bd20c680c512ceee5f78f1d"
+      },
+      "source_path": "frontend/prior9971/opponent_manifest.json"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 7675,
+        "sha256": "2497c7fd54ee54ed26a3131ece87addbf4c2032170c7b1a7434528e6ea2781d4"
+      },
+      "public_path": "source/frontend/prior9971/training_opponent_manifest_v2.json",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 7675,
+        "sha256": "2497c7fd54ee54ed26a3131ece87addbf4c2032170c7b1a7434528e6ea2781d4"
+      },
+      "source_path": "frontend/prior9971/training_opponent_manifest_v2.json"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 9985,
+        "sha256": "569af9f881ffcfd9cddfd28f148275a95e207da7f786bc95f6c2a81d4ff05553"
+      },
+      "public_path": "source/frontend/prior9971/formula_manifest_v3.json",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 9985,
+        "sha256": "569af9f881ffcfd9cddfd28f148275a95e207da7f786bc95f6c2a81d4ff05553"
+      },
+      "source_path": "frontend/prior9971/formula_manifest_v3.json"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 22563,
+        "sha256": "dc71c1a36ad7a5190233893ebf3e14b58d008d300b32f959942550294a7fbd70"
+      },
+      "public_path": "source/frontend/prior9971/tactical_opponent_manifest_v4.json",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 22563,
+        "sha256": "dc71c1a36ad7a5190233893ebf3e14b58d008d300b32f959942550294a7fbd70"
+      },
+      "source_path": "frontend/prior9971/tactical_opponent_manifest_v4.json"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 8133,
+        "sha256": "5e752517e877bd86ade1c932a771bb3fb2f20b2ef6c53dc14dfdca067c5938d0"
+      },
+      "public_ast_sha256": "86e1097978a895daed160be4ca1f1ed0459b008ad37a2d25519911538c8245e6",
+      "public_path": "source/runtime/novel845_profile.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 8133,
+        "sha256": "5e752517e877bd86ade1c932a771bb3fb2f20b2ef6c53dc14dfdca067c5938d0"
+      },
+      "source_path": "runtime/novel845_profile.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 2126,
+        "sha256": "51362acd6dc0d0c49d76f6f17638e35d51fa60a8c526489e1c6e369bb834381a"
+      },
+      "public_ast_sha256": "d10b906a32910674f2d075249b92ac12d6d141fc7d5e4aa8ddc2c46219ce45d2",
+      "public_path": "source/runtime/recovery12120_profile.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 2126,
+        "sha256": "51362acd6dc0d0c49d76f6f17638e35d51fa60a8c526489e1c6e369bb834381a"
+      },
+      "source_path": "runtime/recovery12120_profile.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 19330,
+        "sha256": "aa73f55bfddc36e1aa338a0fb9058d68c9d49474bc8da7be16461336eaa0e928"
+      },
+      "public_ast_sha256": "ab04a12941a2263aff89f99986217a0662449256cb12f8ccd3aefb8734884539",
+      "public_path": "source/runtime/sequential_bn_rules.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 19330,
+        "sha256": "aa73f55bfddc36e1aa338a0fb9058d68c9d49474bc8da7be16461336eaa0e928"
+      },
+      "source_path": "runtime/sequential_bn_rules.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 7746,
+        "sha256": "7426fecab19b59b223b5e087e50c1dd674b2a8bf37141b64d9d1d1bcb3eaadb6"
+      },
+      "public_ast_sha256": "cea9337f2a264fd600e4f7ff733c2e5528db7c3b8efc17ffd6a5292249e74256",
+      "public_path": "source/runtime/sequential_bn_visibility.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 7746,
+        "sha256": "7426fecab19b59b223b5e087e50c1dd674b2a8bf37141b64d9d1d1bcb3eaadb6"
+      },
+      "source_path": "runtime/sequential_bn_visibility.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 22351,
+        "sha256": "3f1cdeff4161a702f88a3026ab017eb7e1cd803e67e24bc6861b40525aed1620"
+      },
+      "public_ast_sha256": "02ba15b12eec74b640daa1a928df8735f5edaa3cb69f67f7c61fc8f988af98d2",
+      "public_path": "source/opponents/expanded_opponents_v5.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 22351,
+        "sha256": "3f1cdeff4161a702f88a3026ab017eb7e1cd803e67e24bc6861b40525aed1620"
+      },
+      "source_path": "opponents/expanded_opponents_v5.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 213354,
+        "sha256": "df8c9b26f8d096d3ae837aa0e51f4b49790b435c8751ad5ca724e011745d454f"
+      },
+      "public_path": "source/opponents/expanded_opponent_manifest_v5.json",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 213354,
+        "sha256": "df8c9b26f8d096d3ae837aa0e51f4b49790b435c8751ad5ca724e011745d454f"
+      },
+      "source_path": "opponents/expanded_opponent_manifest_v5.json"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 4324,
+        "sha256": "14a469b8a19cc7e2a2c33d9c352dfa844464a67a25c7ad1f038b9cf0c38963b3"
+      },
+      "public_ast_sha256": "3737618e8c1dcdca4de0edb330490f1b4b99cf5d0098cfde429b979213b2ac2d",
+      "public_path": "source/opponents/install_expanded_opponents_v5.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 4324,
+        "sha256": "14a469b8a19cc7e2a2c33d9c352dfa844464a67a25c7ad1f038b9cf0c38963b3"
+      },
+      "source_path": "opponents/install_expanded_opponents_v5.py"
+    },
+    {
+      "mode": "unchanged_complete_file",
+      "public": {
+        "bytes": 20862,
+        "sha256": "277a6ad793e6ef27994de99b2f5bac8801398d034c1861254eac4e767455b4fb"
+      },
+      "public_ast_sha256": "aadbe240d3bd00910ab3f116ab643f19c12c886dbcda413da7cf4aa30aed5e25",
+      "public_path": "source/diagnostics/blind_diagnostics.py",
+      "sanitization": "None; original bytes preserved.",
+      "source_original": {
+        "bytes": 20862,
+        "sha256": "277a6ad793e6ef27994de99b2f5bac8801398d034c1861254eac4e767455b4fb"
+      },
+      "source_path": "diagnostics/blind_diagnostics.py"
+    },
+    {
+      "cell_index": 8,
+      "mode": "exact_notebook_cell",
+      "public": {
+        "bytes": 31293,
+        "sha256": "4e73d5844ade9069cab7923ee4944ee1bc1aa09aa2253a625fb4e447c880193e"
+      },
+      "public_ast_sha256": "37b700c6b72ca3e7a3f97887364186b0d87c11fc4ac94b179b1ab500d574928d",
+      "public_path": "derived/base_opponents_cell8.py",
+      "sanitization": "Exact code cell extracted; notebook setup, account metadata, outputs and launch cells omitted.",
+      "selected_original": {
+        "bytes": 31293,
+        "sha256": "4e73d5844ade9069cab7923ee4944ee1bc1aa09aa2253a625fb4e447c880193e"
+      },
+      "source_original": {
+        "bytes": 455520,
+        "sha256": "ddb7eae810d3ac37e005dddbcdf90399797610ac802cce9cdbcda99a784e91c8"
+      },
+      "source_path": "frontend/prior9971/production_source.ipynb"
+    },
+    {
+      "cell_index": 10,
+      "mode": "exact_notebook_cell",
+      "public": {
+        "bytes": 43551,
+        "sha256": "5a59bc66a5d4db3e729ce5df63a514879ae0254d320823484c25b398f70b9cea"
+      },
+      "public_ast_sha256": "de5b24cf6bc41b72fb83912af344f53b36572a174c1bbb22f3a6dcc5ddac97e5",
+      "public_path": "derived/base_learner_cell10.py",
+      "sanitization": "Exact code cell extracted; notebook setup, account metadata, outputs and launch cells omitted.",
+      "selected_original": {
+        "bytes": 43551,
+        "sha256": "5a59bc66a5d4db3e729ce5df63a514879ae0254d320823484c25b398f70b9cea"
+      },
+      "source_original": {
+        "bytes": 455520,
+        "sha256": "ddb7eae810d3ac37e005dddbcdf90399797610ac802cce9cdbcda99a784e91c8"
+      },
+      "source_path": "frontend/prior9971/production_source.ipynb"
+    },
+    {
+      "generator": "teacher_free_objective.patched_training_definition",
+      "generator_sources": [
+        "frontend/prior9971/teacher_free_objective.py",
+        "diagnostics/blind_diagnostics.py"
+      ],
+      "mode": "exact_executed_source_generation",
+      "public": {
+        "bytes": 17100,
+        "sha256": "82d12df92969e503d8cda02660fd0f34dfe0cc058c307f7a2fa8368bd2d23cc0"
+      },
+      "public_ast_sha256": "8e342145996064091672c0cdc86b451d1bef5160c03f0d74684fcd0a67224e30",
+      "public_path": "derived/teacher_free_make_train_step.py",
+      "sanitization": "None within generated code; output of unchanged reviewed transformation, not an independent implementation.",
+      "source_original": {
+        "bytes": 455520,
+        "sha256": "ddb7eae810d3ac37e005dddbcdf90399797610ac802cce9cdbcda99a784e91c8"
+      },
+      "source_path": "frontend/prior9971/production_source.ipynb",
+      "stage": "before_passive_diagnostics"
+    },
+    {
+      "generator": "blind_diagnostics.instrumented_training_definition(teacher_free_objective.patched_training_definition(...))",
+      "generator_sources": [
+        "frontend/prior9971/teacher_free_objective.py",
+        "diagnostics/blind_diagnostics.py"
+      ],
+      "mode": "exact_executed_source_generation",
+      "public": {
+        "bytes": 18071,
+        "sha256": "b160c58c51518cc703e1fc464b73b561f163b3bb4201507366f018b698132603"
+      },
+      "public_ast_sha256": "496e9ab29ca43a0deb0c7dbdf5f25cdfe6bc115e7aa5d3e6f44d467b9a0ffff3",
+      "public_path": "derived/instrumented_make_train_step.py",
+      "sanitization": "None within generated code; output of unchanged reviewed transformation, not an independent implementation.",
+      "source_original": {
+        "bytes": 455520,
+        "sha256": "ddb7eae810d3ac37e005dddbcdf90399797610ac802cce9cdbcda99a784e91c8"
+      },
+      "source_path": "frontend/prior9971/production_source.ipynb",
+      "stage": "final_training_definition_with_passive_diagnostics"
+    },
+    {
+      "definition_ast_sha256": {
+        "_accepted_native_readback": "2cdc150307aaa33aa55084d07a9204704af9189ebd1d0dac52506fe108aab39c",
+        "_install_checkpoint_transfer_admission": "03572eeb6b74fd332b29d727088de394da2fef2c070c2dbfe24fb4694a7a7d13",
+        "_native_readback_guard": "437f94b6fbf6917b0e62547549bfff805b0edf0136a810c80c9bff16469f1239",
+        "_remove_owned_pending": "1694dfec502f67af9dac8718a06a9d3f9761aecc3c4f112912cb7b6b97cb3678",
+        "_save_native": "9426c6b03f50c2519cc6dd78d17f51b734a6a74569a0e59f1bd4bc44e6b45acb"
+      },
+      "definitions": [
+        "_native_readback_guard",
+        "_accepted_native_readback",
+        "_install_checkpoint_transfer_admission",
+        "_remove_owned_pending",
+        "_save_native"
+      ],
+      "mode": "exact_definition_excerpt",
+      "public": {
+        "bytes": 4726,
+        "sha256": "23211d4aa2d24e3594437480861c7a06ea58542ac34122208e855048c37a1136"
+      },
+      "public_ast_sha256": "4a9337f2df54b7b23d15e3c10bcddcdda9e2fa7eeb03e74c764f1630c3024e71",
+      "public_path": "derived/checkpoint_guard_excerpt.py",
+      "sanitization": "Exact functions retained including decorators; only module documentation and standard-library imports added. The derived file ends with one newline, removing an extra blank line introduced by the extraction wrapper; all selected function text and ASTs remain unchanged. Bound operator constants, entrypoints, receipts and private orchestration omitted.",
+      "selected_original": {
+        "bytes": 4380,
+        "sha256": "10a7000fbc61ae4f2af8980b8915ff6b2e277249a64bb1d0a4ce60a28800260c"
+      },
+      "source_original": {
+        "bytes": 93314,
+        "sha256": "a856dc656076d7549f1e59305ca0e30f4575d31431d5e573f04fb559928888cc"
+      },
+      "source_path": "runtime/guardfixed_11591.py"
+    },
+    {
+      "canonical_sha256": "ca6e57b013d44bca93f87e03927e151b13535d61709cbc3ff836635785240824",
+      "changed_keys": [
+        "opponent_training_profile"
+      ],
+      "generator": "novel845_profile.build_training_config(source_configuration, teacher_free_objective)",
+      "generator_sources": [
+        "runtime/novel845_profile.py",
+        "frontend/prior9971/teacher_free_objective.py"
+      ],
+      "mode": "exact_configuration_derivation",
+      "public": {
+        "bytes": 601,
+        "sha256": "daa3a9a93855f9048d4624acad4e6b71ca2dab2ae638c607972f2402575151e1"
+      },
+      "public_path": "training_configuration.json",
+      "sanitization": "No saved setting hidden or dropped; unchanged saved novel845 configuration reproduced from its original explicit profile migration.",
+      "source_original": {
+        "bytes": 604,
+        "sha256": "e38e22f9086614bd9f8a0325ba95e44bfb023494ab305779fa9aa9ddf725f4f5"
+      },
+      "source_path": "contract/fixtures/SOURCE11591_CONFIGURATION.READONLY.json"
+    }
+  ],
+  "format": "spades-public-training-source-snapshot-v1",
+  "latest_training_checkpoint_update": 17574,
+  "omitted": [
+    {
+      "paths": [
+        "frontend/prior9971/original_source.ipynb",
+        "frontend/prior9971/production_source.ipynb"
+      ],
+      "reason": "Full notebooks include provider setup, launch paths and unrelated execution cells. Exact selected code cells are separate excerpts. Original notebook SHA pins remain unchanged and cannot be satisfied by the excerpts."
+    },
+    {
+      "paths": [
+        "runtime/guardfixed_11591.py",
+        "runtime/spades_15247_bn_continuation.py"
+      ],
+      "reason": "Bound operators require private authorization, source-native admission, journal and external permit inputs. Only the explicitly listed checkpoint guard definitions are extracted."
+    },
+    {
+      "paths": [
+        "frontend/launch_binding.py",
+        "frontend/build_frontend.py",
+        "frontend/payload_loader.py",
+        "frontend/compact_transport.py",
+        "frontend/dependency_setup.py",
+        "frontend/source_validation.py",
+        "frontend/startup_observability.py"
+      ],
+      "reason": "Private launch binding and packaged frontend transport are not a public execution entry point."
+    },
+    {
+      "paths": [
+        "contract/",
+        "support/",
+        "audit/",
+        "runtime/host_admission*.py",
+        "runtime/operational_execution*.py",
+        "runtime/code_migration*.py"
+      ],
+      "reason": "Operational contracts, receipts, campaign journals, admission and audit artifacts are outside this public algorithm snapshot."
+    },
+    {
+      "paths": [
+        "FROZEN_SOURCE_RECORD.json",
+        "SOURCE_ONLY_ADMISSION_MANIFEST.json",
+        "dual_gpu_teacher_free_payload_manifest.json",
+        "frontend/PRIOR_*_SOURCE_IDENTITIES.json",
+        "opponents/*evidence.json",
+        "diagnostics/CPU_TEST_EVIDENCE.json"
+      ],
+      "reason": "Original private source maps and historical evidence can contain private provenance references. This independent public manifest records only allowed members."
+    },
+    {
+      "paths": [
+        "native checkpoints and terminal archives"
+      ],
+      "reason": "Native state, weights, private history and output archives are not part of this source snapshot."
+    }
+  ],
+  "original_frozen_closure": {
+    "canonical_member_map_sha256": "543090a679fe74e48755593eb73a003337979edf59363f5520bc5d293f87b471",
+    "description": "Canonical SHA256 of the original FROZEN_SOURCE_RECORD sources map; all 290 recorded bytes checked during curation. The private map is omitted.",
+    "member_count": 290
+  },
+  "original_source_paths": "Logical relative paths inside the frozen source package; no local or account locations.",
+  "publication_support_files": [
+    {
+      "origin": "New publication documentation or verification helper; not claimed as executed training source.",
+      "public": {
+        "bytes": 19,
+        "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+      },
+      "public_path": ".gitignore"
+    },
+    {
+      "origin": "New publication documentation or verification helper; not claimed as executed training source.",
+      "public": {
+        "bytes": 6621,
+        "sha256": "7888100619f6b569853306df81b9b0a8581bbd2f1cfa48159f9e67afa3a8a405"
+      },
+      "public_path": "README.md"
+    },
+    {
+      "origin": "New publication documentation or verification helper; not claimed as executed training source.",
+      "public": {
+        "bytes": 4379,
+        "sha256": "81edaf42ae24ec0ea5eecca0c524b5beea89fd408d7896c3a6e4aaf89a16a9e9"
+      },
+      "public_path": "verify_originals.py"
+    },
+    {
+      "origin": "New publication documentation or verification helper; not claimed as executed training source.",
+      "public": {
+        "bytes": 14958,
+        "sha256": "e6faba91fad062f9f6645aa3209d5ff734641319cf5476a70c7baa36d2da8e53"
+      },
+      "public_path": "tests/test_source_snapshot.py"
+    },
+    {
+      "origin": "New publication documentation or verification helper; not claimed as executed training source.",
+      "public": {
+        "bytes": 2022,
+        "sha256": "9243f18bbdb972f7345fedf29885da487c0917f6a07a4a7bd7b17c37c8b67c24"
+      },
+      "public_path": "host_check_report.json"
+    }
+  ],
+  "sanitization_policy": "Allowlist only. Complete selected modules unchanged; explicitly identified extracted/generated code has exact byte or definition-AST parity. No private fields replaced by invented operational values.",
+  "unresolved_runtime_dependencies": [
+    {
+      "consumer": "source/frontend/prior9971/teacher_free_objective.py",
+      "dependencies": [
+        "exact original production_source.ipynb",
+        "restored source namespace and configuration"
+      ],
+      "impact": "install_training and patched_training_definition retain their original notebook SHA validation. Generated definitions are provided only for inspection."
+    },
+    {
+      "consumer": "source/runtime/sequential_bn_visibility.py",
+      "dependencies": [
+        "exact original source notebook"
+      ],
+      "impact": "read_rules/install retain their exact notebook pins. The exact combined rules source is included separately."
+    },
+    {
+      "consumer": "source/frontend/prior9971/dual_gpu_runtime.py",
+      "dependencies": [
+        "JAX and NumPy",
+        "two physical T4 devices for production",
+        "admitted legacy inventory and memory hooks",
+        "one verified restored TrainingState"
+      ],
+      "impact": "Pure host helpers can be checked; production inventory, GSPMD compilation and native-state placement were not rerun for publication."
+    },
+    {
+      "consumer": "derived/checkpoint_guard_excerpt.py",
+      "dependencies": [
+        "BoundaryStop",
+        "NS_PER_SECOND",
+        "_progress",
+        "_wall_origin",
+        "_utc",
+        "_preparation_guard",
+        "_identity",
+        "validate_training_native",
+        "_assignment_diagnostic",
+        "_write_status",
+        "fully admitted session objects"
+      ],
+      "impact": "Definitions preserve original save/readback safety decisions. The current operator additionally checks current operational metadata inside validate_training_native; that bound validator is omitted. These excerpts cannot establish admission or authorize a run."
+    },
+    {
+      "consumer": "derived/base_learner_cell10.py and derived/*make_train_step.py",
+      "dependencies": [
+        "JAX/Flax/Optax/NumPy namespace",
+        "rules/opponent namespace",
+        "reviewed legacy configuration and checkpoint namespace adapters",
+        "teacher-free and diagnostic helper bindings"
+      ],
+      "impact": "Base cell10 includes historical teacher/bootstrap definitions. They are disabled/replaced by the teacher-free installation; the instrumented generated definition is the final collect/optimizer definition. No launch recipe or standalone importability is claimed."
+    }
+  ],
+  "verification_scope": "Publication host checks only; no actual gameplay, learner optimization, JAX compilation or GPU test performed during curation."
+}

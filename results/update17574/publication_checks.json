@@ -1,0 +1,34 @@
+{
+  "checkpoint_loaded": false,
+  "gpu_executed": false,
+  "original_complete_source_members_verified": 290,
+  "playing_strength_evaluated": false,
+  "schema": "spades-publication-host-checks-v1",
+  "source_originals_verified_by_separate_read_only_check": true,
+  "source_scope": "Curated public source/configuration, distribution integrity and fail-closed host behavior; separate from the actual terminal training content audit.",
+  "source_snapshot_fully_operational": false,
+  "status": "PASS_HOST_ONLY",
+  "suites": [
+    {
+      "passed": true,
+      "path": "tests",
+      "tests": 17
+    },
+    {
+      "passed": true,
+      "path": "runtime/colab_c3",
+      "tests": 47
+    },
+    {
+      "passed": true,
+      "path": "runtime/kaggle_v1",
+      "tests": 104
+    },
+    {
+      "passed": true,
+      "path": "training/teacher_free_dualt4_v1/tests",
+      "tests": 15
+    }
+  ],
+  "total_unique_checks": 183
+}

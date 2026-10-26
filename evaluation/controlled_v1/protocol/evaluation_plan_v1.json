@@ -30,7 +30,7 @@
     "optimizer_rng_counters_unchanged": true,
     "legacy_baseline674_binder_forbidden": true
   },
-  "source_root_at_freeze": "/workspace/spades/work/normal_lr_schedule_amendment_v3/sources",
+  "source_root_at_freeze": "normal_lr_schedule_amendment_v3/sources",
   "source_pins": {
     "diversity_evaluation.py": {
       "bytes": 53553,
@@ -256,7 +256,7 @@
   "seed_history": {
     "development_seed_status": "used_in_actual_preceding_CONTROL1329_DEV_evaluation_by_retained_audited_witness",
     "historical_heldout_primary_and_confirmation": "no_prior_execution_found_in_available_local_evidence; unavailable provider/Library history prevents a universal never-used claim",
-    "audit_scope": "Read-only /workspace/spades text, report filenames, local ZIP member lists and retained source-intake audit witnesses; no connected provider/Library execution history queried",
+    "audit_scope": "Read-only local source text, report filenames, local ZIP member lists and retained source-intake audit witnesses; no connected provider execution history queried.",
     "prior_development_archive": {
       "bytes": 102385846,
       "sha256": "ac5b075ef9029d0fa7a217018c519a278cca5a25997d763e01182468ecd1b02a"
